@@ -18,6 +18,10 @@ namespace HastaneRandevu.Controllers
             return View();
         }
 
+        public IActionResult Randevu()
+        {
+            return View();
+        }
         public IActionResult Privacy()
         {
             return View();
